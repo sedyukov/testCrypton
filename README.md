@@ -3,7 +3,7 @@
 ```
 npm install
 ```
-# После установки, проект можно запустить на dev-сервере скриптом
+# После установки проект можно запустить на dev-сервере скриптом
 ```
 npm run serve
 ```
@@ -12,12 +12,12 @@ npm run serve
 npm run build
 ```
 
-## Project setup
+## [ENG]Project setup
 ```
 npm install
 ```
 
-### [ENG]Compiles and hot-reloads for development
+### Compiles and hot-reloads for development
 ```
 npm run serve
 ```

@@ -1,14 +1,23 @@
 # Crypton Star Wars Heroes
-Для старта проекта необходимо установить зависимости: npm install
-После установки, проект можно запустить на dev-сервере скриптом: npm run serve
-Для production-сборки: npm run build
+# [RUS]Для старта проекта необходимо установить зависимости
+```
+npm install
+```
+# После установки, проект можно запустить на dev-сервере скриптом
+```
+npm run serve
+```
+# Для production-сборки
+```
+npm run build
+```
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### [ENG]Compiles and hot-reloads for development
 ```
 npm run serve
 ```

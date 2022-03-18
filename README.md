@@ -1,4 +1,4 @@
-# vue-vuex-vuetify-router
+# Crypton Star Wars Heroes
 
 ## Project setup
 ```

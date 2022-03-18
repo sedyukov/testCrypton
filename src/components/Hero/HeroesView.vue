@@ -1,8 +1,9 @@
 <template>
   <div class="hero-view">
-    <div class="hero-view__rows">
+    <div v-if="heroes.length !== 0" class="hero-view__rows">
       <Hero v-for="hero in heroes" :hero=hero :key="hero.id"/>
     </div>
+    <div v-else class="else_text">No heroes at page!</div>
   </div>
 </template>
 
@@ -37,7 +38,6 @@ export default {
   methods: {
     ...mapGetters(["getHeroes", "getOpenedLovely","getForGenders"]),
     ...mapMutations(["incCurrentPage", "decCurrentPage","setGender","setLovelyHeroesCount"]),
-    ...mapActions(["fetchForGenders"]),
     search() {
       if(this.heroes.length && this.isLovely) {
         this.heroes = this.heroes_tmp
@@ -122,5 +122,10 @@ export default {
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
+}
+.else_text {
+  text-align: center;
+  margin-top: 30vh;
+  font-size: 40px;
 }
 </style>
